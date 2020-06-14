@@ -1,0 +1,150 @@
+body {
+  background-color: lightgrey; }
+  body nav {
+    background-color: black; }
+  body ul li {
+    padding: 0px 15px; }
+    body ul li:hover {
+      background-color: lightgrey;
+      color: black; }
+    body ul li a {
+      color: #fff; }
+      body ul li a:hover {
+        color: black; }
+      body ul li a input[type=text] {
+        float: right;
+        width: 100px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out; }
+        body ul li a input[type=text]:focus {
+          width: 100%; }
+  body .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.4); }
+    body .modal .modal-content {
+      position: relative;
+      margin: auto;
+      width: 50%;
+      border: 1px solid #888;
+      padding: 15px; }
+      body .modal .modal-content .close {
+        color: red;
+        float: right; }
+        body .modal .modal-content .close:hover {
+          text-decoration: none;
+          cursor: pointer; }
+  body .navbar {
+    padding: 0px; }
+  body header {
+    margin: 60px 0px; }
+    body header h1 {
+      font-family: Oswald;
+      font-size: 48px;
+      font-weight: bold; }
+    body header .mark {
+      color: #fff;
+      background-color: black; }
+  body div.relative {
+    position: relative;
+    max-width: 100%; }
+    body div.relative .text {
+      position: absolute;
+      top: 30%;
+      left: 0%;
+      padding: 12px 24px !important;
+      color: #fff; }
+    body div.relative h1 {
+      font-size: 64px !important;
+      font-weight: bold; }
+    body div.relative button {
+      background-color: rgba(211, 211, 211, 0.5) !important;
+      border-radius: 0px !important;
+      color: black;
+      font-weight: bold !important; }
+      body div.relative button:hover {
+        background-color: lightgray !important; }
+  body .article {
+    margin: 25px 10px 0px 20px;
+    background-color: #fff;
+    padding: 20px; }
+    body .article h3, body .article h5 {
+      text-align: center; }
+    body .article img {
+      width: 100%;
+      height: auto; }
+    body .article button {
+      margin-bottom: 20px; }
+  body .aside {
+    margin: 25px 20px 0px 10px; }
+    body .aside img {
+      width: 100%;
+      height: auto; }
+    body .aside .table .posts img {
+      height: 60px;
+      width: auto; }
+    body .aside .table thead {
+      background-color: black;
+      color: #fff;
+      padding: 50px 0px; }
+    body .aside .table tbody {
+      background-color: #fff; }
+      body .aside .table tbody tr h5, body .aside .table tbody tr p {
+        margin-left: 70px;
+        font-weight: normal; }
+      body .aside .table tbody tr span {
+        background-color: lightgrey;
+        color: black;
+        margin-left: 10px;
+        padding: 0px 5px;
+        font-size: 12px;
+        font-weight: normal; }
+      body .aside .table tbody tr .advertise {
+        background-color: grey;
+        height: 150px;
+        width: auto;
+        padding: 10px; }
+      body .aside .table tbody tr .follow {
+        padding: 0px 5px;
+        color: black; }
+        body .aside .table tbody tr .follow:hover {
+          opacity: 0.5; }
+      body .aside .table tbody tr .subscribe {
+        font-weight: normal; }
+        body .aside .table tbody tr .subscribe .form-group, body .aside .table tbody tr .subscribe .btn {
+          margin-top: 10px; }
+      body .aside .table tbody tr.posts:hover {
+        background-color: lightgrey; }
+  body .first {
+    background-color: black;
+    color: #fff;
+    padding: 10px; }
+  body .footer {
+    background-color: grey;
+    margin-top: 25px; }
+    body .footer button {
+      color: #fff;
+      background-color: black;
+      padding: 10px 30px;
+      margin: 30px 0px 0px 25px; }
+      body .footer button a {
+        color: #fff;
+        text-decoration: none; }
+      body .footer button:hover {
+        background-color: lightgrey;
+        color: black; }
+    body .footer p {
+      margin: 20px 0px 30px 25px; }
